@@ -1,11 +1,6 @@
-name: xAuthPremiumAutoLogin
-main: me.kolorafa.bukkit.xAuthPremiumAutoLogin.XAuthPremiumAutoLogin
-version: 1.3
-description: Autologin and autoregister premium players at xauth
+name: AuthMePremiumAutoLogin
+main: me.kolorafa.bukkit.AuthMePremiumAutoLogin.AuthMePremiumAutoLogin
+version: 0.1
+description: Autologin and autoregister premium players at AuthMe
 author: kolorafa
-depend: [ PremiumProxy, xAuth ]
-commands:
-    xAuthPremiumAutoLogin_pass:
-        usage: "Usage: /setpassword YourNewAccountPassword"
-        aliases: setpassword
-        description: Changes account password
+depend: [ PremiumProxy, AuthMe ]
